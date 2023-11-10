@@ -9,7 +9,9 @@ include("Cat.php");
 // Car::makeNoise();
 // $myCar->makeNoise();
 
-$mincis = new Cat("Mincis");
-$brincis = new Cat("Brincis");
+$cat = new Cat();
+$cat2 = new Cat();
+$cat->name = "Mincis";
+$cat->name = "Brincis";
 
 Cat::moew();

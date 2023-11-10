@@ -5,10 +5,10 @@ class Cat {
     public $name;
     public $age = 0;
 
-    public function __construct($name)
-    {
-       $this->name = $name;
-    }
+    // public function __construct($name)
+    // {
+    //    $this->name = $name;
+    // }
 
 
     public function birthday(){
@@ -19,9 +19,9 @@ class Cat {
         echo "meow!";
     }
 
-    public function __destruct()
-    {
-        // echo $this->name." is dead <br>";
-    }
+    // public function __destruct()
+    // {
+    //     echo $this->name." is dead <br>";
+    // }
 
 }
