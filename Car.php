@@ -6,7 +6,11 @@ class Car {
 
     public function __construct($brand)
     {
-        echo $this->brand = $brand." ";
+        echo $this->brand = $brand." is alive! <br>";
+    }
+
+    static function makeNoise() {
+        echo "Beep, beep!! <br>";
     }
 
     public function __destruct()
@@ -14,7 +18,4 @@ class Car {
         echo $this->brand." is dead <br>";
     }
 
-    static function makeNoise() {
-        echo "Beep, beep!! <br>";
-    }
 }
